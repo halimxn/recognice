@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pyc
+data/
+models/**/*.onnx
+models/**/*.zip
+models/**/*.dll
+dist/
+build/
+logs/
+dev/eval/gold/
+dev/bench/out/
+.superpowers/
+dev/uji/foto/
+dev/uji/contoh/
+lokasi-data.txt
+
+# Catatan galat driver kartu grafis
+*.errors.txt
+.impeccable/

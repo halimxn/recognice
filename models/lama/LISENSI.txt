@@ -1,0 +1,13 @@
+﻿Model wajah di folder ini berasal dari paket InsightFace buffalo_m:
+  - det.onnx   : SCRFD-2.5G (deteksi wajah)
+  - rec.onnx   : ArcFace MobileFaceNet w600k_mbf (sidik wajah 512 angka)
+  - det_500m_cadangan.onnx : SCRFD-500M lama (tidak dipakai)
+
+Sumber: https://github.com/deepinsight/insightface dan
+        https://github.com/yakhyo/face-reidentification/releases/tag/v0.0.1
+Lisensi InsightFace membatasi penggunaan komersial. Aplikasi Recognice ini untuk pemakaian
+pribadi. Jangan menjual atau mendistribusikan model ini sebagai produk komersial tanpa izin
+dari pemilik lisensi.
+
+msvcp140.dll dan msvcp140_1.dll adalah runtime Visual C++ yang diperlukan ONNX Runtime di
+Windows tanpa Visual C++ terpasang. Keduanya disertakan hanya untuk menjalankan model.

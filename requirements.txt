@@ -1,0 +1,8 @@
+PySide6-Essentials==6.12.0
+onnxruntime==1.31.1
+openvino==2026.4.1
+numpy==2.5.4
+Pillow==13.0.0
+pillow-heif==1.8.1
+pytest==9.0.2
+pyinstaller==6.20.0
